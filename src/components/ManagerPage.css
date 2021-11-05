@@ -1,0 +1,56 @@
+div{
+  width: 1920px;
+  height: 1524px;
+  background-color: #f4f7fc;
+}
+
+.Shape {
+    width: 250px;
+    height: 1456px;
+    margin: 0 45px 0 0;
+    padding: 2px 0 1194px;
+    background-color: #fff;
+  }
+
+  .Frame {
+    width: 250px;
+    height: 52px;
+    background-color: #fff;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .Name {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: #171725;
+    position: relative;
+    top: 25%;
+    margin-left: 40px;
+  }
+
+  .logo {
+    position: relative;
+    top: 32%;
+  }
+
+  .ManagerHeader {
+    width: 1920px;
+    height: 68px;
+    padding: 17px 78px 15px 57px;
+    background-color: rgb(198, 238, 248);
+  }
+
+  .header-logo {
+    font-size: 30px;
+    position : absolute;
+    top: 30px;
+  }
+
+  .managerName {
+    font-size: 20px;
+    position : relative;
+    top: 25%;
+    left: 70%;
+  }
