@@ -7,8 +7,8 @@ const ManagerPage = () => {
 
             {/* 헤더 */}
             <div className="ManagerHeader">
-                <span className="header-logo">로고로고</span>
-                <span className="managerName">관리자 이름</span>
+                {/* <span className="header-logo">로고로고</span>
+                <span className="managerName">관리자 이름</span> */}
             </div>
 
             {/* 왼쪽 바 */}
