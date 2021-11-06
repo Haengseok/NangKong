@@ -1,17 +1,17 @@
 import React from "react";
 import './ManagerPage.css';
+import ManagerHeader from "./ManagerHeader";
 
 const ManagerPage = () => {
     return(
-        <div>
 
-            {/* 헤더 */}
-            <div className="ManagerHeader">
-                {/* <span className="header-logo">로고로고</span>
-                <span className="managerName">관리자 이름</span> */}
-            </div>
+        <>
+            <ManagerHeader />
 
-            {/* 왼쪽 바 */}
+            {/* <div className="ChangePage">
+                
+            </div> */}
+
             <div className='Shape'>
                 <div className="Frame">
                     <span><img src="/home.png" alt='logo' className="logo"></img></span>
@@ -34,7 +34,13 @@ const ManagerPage = () => {
                     <span className="Name">공지 사항</span>
                 </div>
             </div>
-        </div>
+
+            
+
+            {/* <div className="MainFrame">
+                안녕
+            </div> */}
+        </>
     );
 };
 

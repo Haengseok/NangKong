@@ -1,15 +1,24 @@
-div{
-  width: 1920px;
-  height: 1524px;
+.MainFrame{
+  /* width: 1300px;
+  height: 1424px; */
+  /* display: flex; */
   background-color: #f4f7fc;
+  display: inline-block;
 }
+
+.ChangePage{
+  display: inline-block;
+  background-color: #fff;
+  width: 500px;
+  display: inline-block;
+}
+
 
 .Shape {
     width: 250px;
-    height: 1456px;
-    margin: 0 45px 0 0;
-    padding: 2px 0 1194px;
+    height: fit-content;
     background-color: #fff;
+    display: inline-block;
   }
 
   .Frame {
@@ -21,7 +30,7 @@ div{
   }
 
   .Frame:hover{
-    background-color: rgb(69, 83, 216);
+    background-color: #bed1ee;
   }
 
   .Name {
@@ -39,21 +48,9 @@ div{
     top: 32%;
   }
 
-  .ManagerHeader {
-    /* width: 1920px; */
-    height: 68px;
-    /* padding: 17px 78px 15px 57px; */
-    background-color: rgb(198, 238, 248);
+  
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 12px;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .header-logo {
+  /* .header-logo {
     font-size: 30px;
     position : absolute;
     top: 30px;
@@ -64,4 +61,4 @@ div{
     position : relative;
     top: 25%;
     left: 70%;
-  }
+  } */

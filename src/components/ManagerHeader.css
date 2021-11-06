@@ -1,0 +1,18 @@
+.ManagerHeader {
+    /* width: 1920px; */
+    height: 68px;
+    /* padding: 17px 78px 15px 57px; */
+    background-color: rgb(198, 238, 248);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    /* flex-direction: column;
+    align-items: flex-start; */
+  }
+
+  .haderlogo{
+      position: relative;
+      right: 10%;
+  }
