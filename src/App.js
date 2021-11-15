@@ -12,9 +12,17 @@ import {
 import Home from "./pages/Home";
 import Reports from "./pages/Reports";
 import Products from "./pages/Products";
+import User from "./User";
+import ErrorBoundary from "./ErrorBoundary";
 
 
 function App() {
+  
+  const user = {
+    id: 1,
+    username: 'velopert'
+  };
+  
   return (
     // <div>
     //     <CounterContainer />
@@ -23,16 +31,21 @@ function App() {
     //     <ManagerPage />
     // </div>
 
-    <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/user' component={Reports} />
-          <Route path='/esl' component={Products} />
-        </Switch>
-      </Router>
-    </>
+    // <>
+    //   <Router>
+    //     <Navbar />
+    //     <Switch>
+    //       <Route path='/' exact component={Home} />
+    //       <Route path='/user' component={Reports} />
+    //       <Route path='/esl' component={Products} />
+    //     </Switch>
+    //   </Router>
+    // </>
+
+    <ErrorBoundary>
+      <User />
+    </ErrorBoundary>
+    // <User />
   );
 };
 
