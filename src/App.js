@@ -14,6 +14,7 @@ import Reports from "./pages/Reports";
 import Products from "./pages/Products";
 import User from "./User";
 import ErrorBoundary from "./ErrorBoundary";
+import Test12 from "./components/Test12";
 
 
 function App() {
@@ -42,10 +43,11 @@ function App() {
     //   </Router>
     // </>
 
-    <ErrorBoundary>
-      <User />
-    </ErrorBoundary>
-    // <User />
+    // <ErrorBoundary>
+    //   <User />
+    // </ErrorBoundary>
+
+    <Test12 />
   );
 };
 
