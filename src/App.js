@@ -12,9 +12,18 @@ import {
 import Home from "./pages/Home";
 import Reports from "./pages/Reports";
 import Products from "./pages/Products";
+import User from "./User";
+import ErrorBoundary from "./ErrorBoundary";
+import Test12 from "./components/Test12";
 
 
 function App() {
+  
+  const user = {
+    id: 1,
+    username: 'velopert'
+  };
+  
   return (
     // <div>
     //     <CounterContainer />
