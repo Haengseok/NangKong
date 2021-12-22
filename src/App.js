@@ -23,15 +23,20 @@ function App() {
     //     <ManagerPage />
     // </div>
 
+    // <>
+    //   <Router>
+    //     <Navbar />
+    //     <Switch>
+    //       <Route path='/' exact component={Home} />
+    //       <Route path='/user' component={Reports} />
+    //       <Route path='/esl' component={Products} />
+    //     </Switch>
+    //   </Router>
+    // </>
     <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/user' component={Reports} />
-          <Route path='/esl' component={Products} />
-        </Switch>
-      </Router>
+      <div>
+        하이
+      </div>
     </>
   );
 };
